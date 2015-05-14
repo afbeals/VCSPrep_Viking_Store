@@ -1,6 +1,6 @@
 /*add resets later w/ connection*/
 
- div {
+ {
   border: 1px dashed black;
 }
 
@@ -72,11 +72,19 @@
   width: 100%;
 }
 
+.shopping-area {
+  border: 1px solid black;
+}
+
+.shopping-row {
+  text-align: center;
+}
+
 .item-summary{
   display: inline-block;
   text-align: center;
   margin: 10px 20px;
-  width: 250px;
+  width: 200px;
 }
 
 .item-name {
@@ -93,11 +101,32 @@
 
 .item-summary .item-image{
   width: 100%;
-  height: 75px;
+  height: 110px;
   background-color: gray;
 }
 
 .item-image img{
   width: 100%;
   height: 100%;
+}
+
+.cta-addcart {
+  padding: 5px 0px;
+  background-color: #25252F;
+  height: 25px;
+}
+.cta-addcart-style {
+  background-color: #FFBF5F;
+  padding-top: 
+}
+
+.pagination {
+  color: blue;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.pagination .2 {
+  color: black;
+  text-decoration: none;
 }
