@@ -1,6 +1,6 @@
 /*add resets later w/ connection*/
 
- {
+ div {
   border: 1px dashed black;
 }
 
@@ -76,7 +76,7 @@
   display: inline-block;
   text-align: center;
   margin: 10px 20px;
-  width: 150px;
+  width: 250px;
 }
 
 .item-name {
@@ -88,6 +88,7 @@
   padding-top: 5px 0;
   height: 25px;
   padding-top: 5px;
+  width: 100%;
 }
 
 .item-summary .item-image{
