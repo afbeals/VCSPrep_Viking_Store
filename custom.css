@@ -49,12 +49,19 @@ table {
 
 
 div { 
-  
+
+}
+
+body{
+  width: 800px;
+  display: block;
+  margin: 0px auto;
 }
 
 .top-nav {
-  border-bottom: 1px solid black;
+  border: 1px solid black;
   height: 30px;
+  width: 100%;
 }
 
 .top-nav .logo {
@@ -68,6 +75,7 @@ div {
   display: inline-block;
   float: right;
   margin-right: 50px;
+  line-height: 25px;
 }
 
 .top-nav .cart-icon {
@@ -75,24 +83,37 @@ div {
   vertical-align: middle;
 }
 
+.cart-icon img {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+}
+
 .top-nav .cta-cart {
   display: inline-block;
   vertical-align: middle;
+  font-size: 13px;
 }
 
 .viking-wallpaper {
   width: 100%;
-  height: 250px;
-  background-color: #BCBCCA;
+  height: 330px;
   border: 1px solid black;
 }
 
 .viking-background {
   width: 100%;
-  height: 100%;
+  height: 330px;
 }
 
-.viking-background h1 {
+.viking-background img {
+  width: 100%;
+  height: 330px;
+  display: block;
+  margin: 0px auto;
+}
+
+.viking-background p {
   font-size: 55px;
   text-align: center;
   height: 250px;
