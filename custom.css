@@ -1,6 +1,6 @@
 /*add resets later w/ connection*/
 
- {
+{
   border: 1px dashed black;
 }
 
@@ -85,6 +85,7 @@
   text-align: center;
   margin: 10px 20px;
   width: 200px;
+  border: 1px solid black;
 }
 
 .item-name {
@@ -111,6 +112,7 @@
 }
 
 .cta-addcart {
+  font-size: 10px;
   padding: 5px 0px;
   background-color: #25252F;
   height: 25px;
@@ -129,4 +131,50 @@
 .pagination .2 {
   color: black;
   text-decoration: none;
+}
+
+.bottom-nav {
+  background-color: #25252F;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.contact-logo {
+  text-align: center;
+  color: #E6782E;
+  font-size: 14px;
+  font-weight: bold;
+} 
+
+.number {
+  text-align: center;
+}
+
+.number-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.phone-number{
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.email {
+  text-align: center;
+}
+
+.email-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 25px;
+}
+
+.email-address{
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  vertical-align: middle;
 }
